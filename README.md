@@ -59,6 +59,20 @@ The [Even Realities G2](https://www.evenrealities.com) are everyday display smar
 - [Even Terminal Launcher](https://github.com/3mintimer/even-terminal-launcher) - macOS and Windows tray app for managing Even Terminal connection profiles and supervising agent sessions.
 - [even-card-platform](https://github.com/tntpsu/even-card-platform) - Reusable framework for G2 card-game packs with card primitives, deck and hand rendering, a gesture model, and a shared style guide.
 - [even-development](https://github.com/oggunderscore/even-development) - Reference monorepo of G2 apps and utilities, including a HUD with gesture routing, weather, clock, and reminders.
+- [xg-glass-sdk](https://github.com/hkust-spark/xg-glass-sdk) - One API for camera, mic, display, and audio across the G2, Rokid, Meta Ray-Ban, Brilliant Labs Frame, RayNeo, and INMO, with a simulator.
+- [create-even-app](https://github.com/fabioglimb/create-even-app) - Scaffolder for G2 apps with six starter templates built on even-toolkit.
+- [even-demo](https://github.com/fabioglimb/even-demo) - Interactive showcase of the even-toolkit design system with 55+ components, 191 icons, and light and dark themes.
+- [evenhub-playground](https://github.com/shimopino/evenhub-playground) - Development playground for experimenting with Even Hub G2 apps.
+- [even-notifications](https://github.com/ryanadiaz/even-notifications) - Draws simulated notification popup overlays so you can design around them without a live phone notification.
+- [g2mirror](https://github.com/jimrandomh/g2mirror) - Rust utility for mirroring a terminal session to the G2 display.
+- [even (CLI)](https://github.com/aluminumio/even) - Swift command-line tool for sending text to the G2 over Bluetooth.
+- [even-ui-builder](https://github.com/langerhans/even-ui-builder) - Simple UI builder and code generator for the Even Hub SDK.
+- [even_g2_picoruby](https://github.com/kishima/even_g2_picoruby) - Runnable example of writing a G2 app in Ruby via PicoRuby compiled to WebAssembly.
+- [eveng2-demo](https://github.com/bigdra50/eveng2-demo) - Feature demo app exercising the display, input, audio, IMU, and storage APIs.
+- [takemotions-gps-bridge](https://github.com/r-tkbyc/takemotions-gps-bridge) - Android helper supplying phone GPS to Even Hub apps, working around the in-app browser's lack of location access.
+- [takemotions-media-bridge](https://github.com/r-tkbyc/takemotions-media-bridge) - Android helper exposing now-playing media and R1 ring playback controls to glasses apps over localhost.
+- [Glance-Companion](https://github.com/Munkhu1/Glance-Companion) - Android media control companion for the G2.
+- [even-img-benchmark](https://github.com/opinsky/even-img-benchmark) - Benchmark harness for the G2 image pipeline, useful for tuning against the SDK 0.0.12 compressed image path.
 
 ## Protocol and Reverse Engineering
 
@@ -67,6 +81,11 @@ The [Even Realities G2](https://www.evenrealities.com) are everyday display smar
 - [even-g2-patched](https://github.com/cokeeffekt/even-g2-patched) - Patched Even app build that bypasses voice-intent interception so every G2 voice command routes to a custom AI agent.
 - [g2flash](https://github.com/jimrandomh/g2flash) - Custom firmware for the G2 that adds compressed image transfer, full-screen 576x288 single-image support, per-lens stereo output, and beeper tones, paired with matching custom send-side software.
 - [evenRealities-openCFW](https://github.com/kalanihelekunihi/evenRealities-openCFW) - Reverse-engineering documentation of the G2 firmware and BLE protocol, paired with a custom-firmware effort.
+- [ffs-os](https://github.com/yonif8/ffs-os) - Clean-room Swift BLE driver and glasses OS for the G2, independent of the official stack.
+- [men-g2-ble-gateway](https://github.com/gpsnmeajp/men-g2-ble-gateway) - Python gateway exposing the G2 over HTTP, WebSocket, and MCP, with a local browser UI.
+- [g2_helloworld](https://github.com/gpsnmeajp/g2_helloworld) - Minimal sideload app and WebSocket demo for the G2, useful as a bare-metal starting point.
+- [men-g2-atoms3-hello](https://github.com/gpsnmeajp/men-g2-atoms3-hello) - Arduino sketch for the M5AtomS3 that connects to the G2 over BLE, authenticates, and boots an Even Hub page.
+- [Even-G2-RE](https://github.com/lonelyobserver0/Even-G2-RE) - Reverse-engineering effort covering the Even G2 app and its BLE system.
 
 ## Apps - Productivity and Utilities
 
@@ -98,6 +117,42 @@ The [Even Realities G2](https://www.evenrealities.com) are everyday display smar
 - [even-docs](https://github.com/Darielquinta/even-docs) - Local document editor for the G2 with multiple documents, version-history snapshots, and bridge-backed storage.
 - [even-g2-apps](https://github.com/mfethe1/even-g2-apps) - Collection of custom Even Hub SDK apps for the G2, including a Telegram HUD, calendar events, and dashboard notifications.
 - [x-for-even-g2](https://github.com/sommohapatra/x-for-even-g2) - Browse your X (Twitter) home timeline on the G2 with ring or touchpad navigation.
+- [matrix-g2](https://github.com/logicalpeyote777/matrix-g2) - Matrix client that reads chats on the HUD and dictates replies by voice through a Python bridge.
+- [even-scribe](https://github.com/hiraghi/even-scribe) - Japanese note-taking app for the G2 with a kana-kanji IME.
+- [even-g2-obsidian](https://github.com/hiraghi/even-g2-obsidian) - Browse and edit an Obsidian vault on the G2 with live editor mirroring and IME composition support.
+- [even-kitchen](https://github.com/fabioglimb/even-kitchen) - Cooking assistant with recipes, step-by-step guidance, and timers on the lens.
+- [Bring-Lens](https://github.com/jappyjan/Bring-Lens) - Displays Bring! shopping lists on the glasses.
+- [EvenAware](https://github.com/Xuefeng-Zhu/EvenAware) - Real-time notification hub aggregating alerts from multiple sources onto the G2.
+- [NOSnieuws_G2](https://github.com/SachaEpskamp/NOSnieuws_G2) - Unofficial NOS (Dutch public broadcaster) news reader for the G2.
+- [Glance G2](https://github.com/aleapc/glance-g2) - Personal dashboard aggregator with an Expo mobile companion feeding calendar, health, weather, and finance data.
+- [BreakMate](https://github.com/aleapc/breakmate-g2) - Lifecycle-aware health and break reminders fronted by an animated pixel-art character.
+- [SolarWorldClock](https://github.com/KamalQ/SolarWorldClock) - World clock for the G2 for tracking time across multiple zones.
+- [even-simple-calendar](https://github.com/r-tkbyc/even-simple-calendar) - Hands-free month-view calendar navigated entirely with the R1 ring.
+- [even-simple-timer](https://github.com/r-tkbyc/even-simple-timer) - Hands-free countdown and count-up timer for the G2.
+- [whisprompt](https://github.com/ewfefrs/whisprompt) - Offline Android teleprompter that drives scripted text onto the G2.
+- [notion-ultimate-brain-even-g2](https://github.com/hofstede-matheus/notion-ultimate-brain-even-g2) - Ultimate Brain Notion template surfaced as a G2 interface.
+- [flipctl](https://github.com/KuriGohan-Kamehameha/flipctl) - Mirrors a Flipper Zero on the G2 HUD with R1 ring control and a one-tap launcher.
+- [Even-G2-Sentinel-Ops](https://github.com/btstevens1984az/Even-G2-Sentinel-Ops) - Fully offline IT security toolkit for the G2 and R1 ring with eight operator tools.
+- [even-browser](https://github.com/fabioglimb/even-browser) - Web browser for the G2: enter a URL on your phone and read pages hands-free with scroll, link navigation, history, and bookmarks.
+- [G2-Gmail](https://github.com/r-castelo/G2-Gmail) - Gmail reader for the G2.
+- [G2-md-browser](https://github.com/r-castelo/G2-md-browser) - Markdown file reader with folder browsing, search, and phone-managed favourites.
+- [even-todoist](https://github.com/howyi/even-todoist) - Todoist tasks on the G2, with a phone WebView for settings and a HUD focus display.
+- [EvenG2_GoogleKeep](https://github.com/TakaakiIchijo/EvenG2_GoogleKeep) - Projects Google Keep notes and checklists onto the G2 via a Flask and gkeepapi backend.
+- [2FA-for-G2](https://github.com/a-bissell/2FA-for-G2) - TOTP authenticator that runs on your face.
+- [Even-R-Clock](https://github.com/Morfeussession2/Even-R-Clock) - Unified clock app combining stopwatch, countdown timer, and alarm.
+- [level-even-g2](https://github.com/nickustinov/level-even-g2) - Spirit level for the G2.
+- [reddit-feed-even](https://github.com/plungarini/reddit-feed-even) - Full-featured Reddit client rendering feeds, posts, and comments through a Cloudflare Worker proxy.
+- [Birdie](https://github.com/plungarini/birdie-even) - Real-time ambient bird identification that listens and names the species in your view.
+- [Smokeless](https://github.com/plungarini/smokeless-even) - Cigarette tracker and quit companion logging each smoke with a tap on the frame.
+- [even-traeger](https://github.com/tgarrell/even-traeger) - Monitor and control a Traeger pellet smoker from the G2.
+- [fronius-even-g2](https://github.com/manuelwilhelmer/fronius-even-g2) - Real-time Fronius Solar.web PV system data as a hands-free HUD.
+- [even-g2-aviation-weather](https://github.com/MrMartellato/even-g2-aviation-weather) - Live METAR and TAF aviation weather on the G2.
+- [Sun-Scout-Pro](https://github.com/quemorez/Sun-Scout-Pro) - Cinematography sun-tracking HUD with solar position, golden-hour timing, and a rotating sun-path map.
+- [bible-memory-g2](https://github.com/gn2b5gvcq5-tech/bible-memory-g2) - Scripture memory app with AI verse suggestions and fill-in-the-blank practice.
+- [even-g2-calendar-companion](https://github.com/harikapadia999/even-g2-calendar-companion) - Next-event calendar notifications on the G2 over an optimized BLE path.
+- [SalesEye](https://github.com/cphizz/SalesEye) - Real-time sales coach that detects objections and buying signals on live calls and surfaces cues on the lens.
+- [evenG2](https://github.com/zijiebuzhuang/evenG2) - Collection of G2 apps including MoonWalker, a minimalist AR navigation app with dual map services.
+- [even-my-news-hub](https://github.com/r-tkbyc/even-my-news-hub) - Personal news hub for the G2, built as a dependency-free HTML, CSS, and JavaScript app.
 
 ## Apps - Navigation and Transit
 
@@ -113,6 +168,18 @@ The [Even Realities G2](https://www.evenrealities.com) are everyday display smar
 - [Checkin](https://github.com/typester/even-swarm) - Foursquare Swarm check-in app that surfaces nearby venues on the G2.
 - [EUC-G2-Hud](https://github.com/Jessica-Hunt/EUC-G2-Hud) - Electric-unicycle telemetry HUD showing real-time speed, battery, and ride metrics on the G2.
 - [even-adventure-hud](https://github.com/myclark/even-adventure-hud) - Heads-up display for hiking and biking on the G2 with live GPS speed and distance.
+- [G2BusTracker](https://github.com/jamie950315/G2BusTracker) - Real-time Taiwan bus arrivals on the G2 with location-based stop finding.
+- [RoadView-G2](https://github.com/double-r-squared/RoadView-G2) - Live WSDOT highway camera feeds on the G2, browsable by highway.
+- [HUD-Navigation-Integration-Even-Hub](https://github.com/ArmasF31/HUD-Navigation-Integration-Even-Hub) - Live turn-by-turn navigation and OBD-II vehicle metrics on the G2 via a Swift bridge.
+- [Wondereye](https://github.com/cmdlabtech/Wondereye) - Landmark exploration app surfacing context about places around you.
+- [StoryWalk](https://github.com/aleapc/storywalk-g2) - GPS-tracked point-of-interest storytelling for tourism and running, with an Expo companion.
+- [Hunter](https://github.com/aleapc/hunter-g2) - Place discovery with pixel-art icons, an offline cache, and OSRM walking routes.
+- [even-simple-compass](https://github.com/r-tkbyc/even-simple-compass) - Minimal compass HUD for the G2.
+- [apexline-g2](https://github.com/Apolly009/apexline-g2) - Motorcycle-first navigation app for the G2.
+- [EvenGo-Paris](https://github.com/Arkinos1/EvenGo-Paris) - Paris public transport, all modes in one app.
+- [HUD-KVV-Depatures-G2](https://github.com/ArmasF31/HUD-KVV-Depatures-G2) - Next Karlsruhe (KVV) tram departures from your nearest stop, located by GPS.
+- [glass-transit-511](https://github.com/contextablemark/glass-transit-511) - SF Bay Area BART and Muni arrivals via the 511.org feed.
+- [subwaylens](https://github.com/laolao91/subwaylens) - Real-time NYC subway arrivals on the G2.
 
 ## Apps - Smart Home and Car
 
@@ -120,16 +187,26 @@ The [Even Realities G2](https://www.evenrealities.com) are everyday display smar
 - [even-home-assistant](https://github.com/maik353-debug/even-home-assistant) - Home Assistant dashboard and control from the glasses.
 - [Homekit-Integration-Even-Hub](https://github.com/ArmasF31/Homekit-Integration-Even-Hub) - Apple HomeKit control via a local Mac bridge.
 - [g2_macrodroid](https://github.com/gpsnmeajp/g2_macrodroid) - Trigger MacroDroid automations from the G2.
+- [connect-remote](https://github.com/Jack-Berry/connect-remote) - Remote companion for Genesis, Kia, and Hyundai vehicles showing battery, range, and climate on the G2.
+- [glass-car-dash](https://github.com/drrobotk/glass-car-dash) - Driving dashboard and media remote for the G2.
+- [car-hud](https://github.com/waliulawaltaha/car-hud) - Distraction-free vehicle telemetry HUD for the G2.
 
 ## Apps - Fitness and Health
 
 - [hevy-g2](https://github.com/Alireza29675/hevy-g2) - Drives Hevy gym workouts from the glasses: pick a routine on your phone and see sets and reps on the display.
 - [even-workout](https://github.com/fabioglimb/even-workout) - Guided workout tracking on the G2.
+- [evenhub-running-tracker](https://github.com/kissyjpf/evenhub-running-tracker) - GPS and accelerometer running pace tracker for the G2.
+- [EyeFit](https://github.com/aleapc/eyefit-g2) - Eye-exercise app driven by IMU head tracking, with a scheduling companion app.
+- [golf-caddie-glasses](https://github.com/moisesvargasjr/golf-caddie-glasses) - Live round data and shot logging on the G2, paired with an iOS and watchOS tracker.
+- [G2 Gym App](https://github.com/r-castelo/G2_Gym_App) - Workout tracking app for the G2 via Even Hub.
 
 ## Apps - Finance and Markets
 
 - [even-market](https://github.com/fabioglimb/even-market) - Stock market quotes and watchlists on the glasses.
 - [even-g2-crypto-ticker](https://github.com/ARNLTony/even-g2-crypto-ticker) - Live cryptocurrency price ticker for the G2.
+- [evenhub-news-ticker](https://github.com/valve4/evenhub-news-ticker) - Live financial news ticker for the G2.
+- [g2-currency-hub](https://github.com/evde-ga4/g2-currency-hub) - Currency converter for the G2.
+- [Even Balance](https://github.com/Morfeussession2/EVEN-G2-Balance) - Personal finance HUD tracking balances and spending categories on the G2.
 
 ## Apps - Voice and Speech-to-Text
 
@@ -160,6 +237,16 @@ The [Even Realities G2](https://www.evenrealities.com) are everyday display smar
 - [HoppyRoads](https://github.com/dmyster145/EvenRoads) - Crossy Road-style crossing game for the G2 with deterministic text-first gameplay.
 - [Vault Zero](https://github.com/fraugho/dungeon) - First-person dungeon crawler with textured raycast 3D rendering on the G2.
 - [Card Pack](https://github.com/tntpsu/CardPack) - Seven classic card games, including Hearts, Spades, and Cribbage, for the G2.
+- [House Games](https://github.com/tntpsu/HouseGames) - Four casino games for the G2: Blackjack, Video Poker, Three Card Poker, and Roulette.
+- [even-doom](https://github.com/narfman0/even-doom) - Doom E1M1 raycaster rendered as ASCII art on the G2.
+- [EvenFoundryVTT](https://github.com/Aiacos/EvenFoundryVTT) - D&D 5e on the G2 and R1 ring, synced with FoundryVTT via a phosphor-green tactical HUD.
+- [darts-even-g2](https://github.com/JustinasLa/darts-even-g2) - Darts checkout counter for the G2.
+- [Quiz Flashcards](https://github.com/KamalQ/g2-flashcards) - Multiple-choice quiz flashcards with JSON, CSV, and plain-text deck import.
+- [lingua-lens](https://github.com/kolife01/lingua-lens) - Ambient English coach that offers full phrases when you stall and stays silent when you don't.
+- [even-sliding-puzzle](https://github.com/r-tkbyc/even-sliding-puzzle) - Sliding puzzle in 3x3 and 4x4 for the G2.
+- [even-japanese-map-quiz](https://github.com/r-tkbyc/even-japanese-map-quiz) - Silhouette quiz covering all 47 Japanese prefectures, played entirely with the R1 ring.
+- [evenTaipan](https://github.com/opinsky/evenTaipan) - Taipan-style trading game for the G2.
+- [EVEN-G2-Tamagotchi](https://github.com/Morfeussession2/EVEN-G2-Tamagotchi) - Tamagotchi-style virtual pet for the G2.
 
 ## Apps - Media and Music
 
@@ -169,6 +256,12 @@ The [Even Realities G2](https://www.evenrealities.com) are everyday display smar
 - [Even-G2-Guitar-Tuner](https://github.com/Comm4nd0/Even-G2-Guitar-Tuner) - Guitar tuner that shows detected pitch on the glasses.
 - [MuSe](https://github.com/ltrademark/EvenG2-Music-Search) - Ambient music identification on the G2 showing song, artist, and cover art with searchable history.
 - [Sudden Karaoke](https://github.com/inutano/sudden-karaoke) - Song recognition and time-synced karaoke lyrics on the G2 via the AudD and LRCLIB APIs.
+- [spotify-g2](https://github.com/yannrapaport/spotify-g2) - Spotify playback control plugin driven by the R1 ring.
+- [even-now-playing](https://github.com/r-tkbyc/even-now-playing) - Now-playing media display and ring control, paired with an Android media bridge.
+- [even-g2-matrix](https://github.com/wmoto-ai/even-g2-matrix) - Matrix-style digital rain animation for the G2 display.
+- [orpheus-g2](https://github.com/L3G/orpheus-g2) - Synced lyrics and now-playing for both Apple Music and Spotify.
+- [even-g2-media-remote](https://github.com/aramood/even-g2-media-remote) - Media remote driven by the G2 and R1 ring, with an Android helper.
+- [g2-multi-instrument-tuner](https://github.com/r-castelo/g2-multi-instrument-tuner) - Cross-platform tuner for guitar, bass, and ukulele with alternate tunings.
 
 ## Apps - Streaming
 
@@ -197,6 +290,20 @@ The [Even Realities G2](https://www.evenrealities.com) are everyday display smar
 - [even-better](https://github.com/pawaca/even-better) - Mirrors live Claude Code and Codex terminal sessions to the G2 over the Even Terminal protocol.
 - [eveng2-terminal-textinput](https://github.com/soualid/eveng2-terminal-textinput) - Phone companion that adds typed text input to Claude Code sessions while keeping the G2 HUD in sync.
 - [OpenVide](https://github.com/open-vide/openvide) - Remote control for Claude Code and Codex sessions with a G2 WebView client over an SSH and HTTPS bridge.
+- [EvenHub-LocalLLM](https://github.com/axchristie/EvenHub-LocalLLM) - Voice-controlled local LLM interface for the G2, backed by open-webui over Tailscale.
+- [cos-glasses-server](https://github.com/ukaoma/cos-glasses-server) - Self-hosted heads-up-display server that drives the G2 from a local Claude Code CLI.
+- [g2-claude-remote](https://github.com/ThatCrispyToast/g2-claude-remote) - Controls Claude remote-control sessions from the G2 with a HUD app, companion panel, and uvx-runnable bridge.
+- [G2CC](https://github.com/expectbugs/G2CC) - Direct-BLE Claude Code dispatch for the G2 with DJI two-mic noise cancellation and Parakeet ASR.
+- [claude-hud](https://github.com/m4rpqfbbc2-debug/claude-hud) - Voice-driven Claude Code terminal HUD for the G2.
+- [hermes-evenhub-bridge](https://github.com/huntsyea/hermes-evenhub-bridge) - Python adapter exposing the G2 as a Hermes agent platform.
+- [even-terminal-pi](https://github.com/lallenlowe/even-terminal-pi) - Runs the pi coding agent on the G2 as an Even Terminal provider.
+- [completion-telegram-bridge](https://github.com/matsei-ruka/completion-telegram-bridge) - OpenAI-compatible completion API bridging the G2 to a personal Telegram agent.
+- [evenglass](https://github.com/xntj-ai/evenglass) - Real-time relay between the G2, an Android hub, a Phoenix and Elixir server, and a Windows client.
+- [even-deimos](https://github.com/dxiv/even-deimos) - Pick your AI provider, chat from your phone, and stream replies to a minimal lens HUD, with keys stored on-device.
+- [even-jarvis](https://github.com/iDigz/even-jarvis) - OpenClaw-powered assistant with glasses-mic voice input, streamed responses, and image generation.
+- [EvenCode](https://github.com/TheOmran/EvenCode) - Voice-driven Claude Code conversations on the G2, including scrolling results and answering interactive prompts.
+- [HeadLenss](https://github.com/takashicompany/headlenss) - Drive Claude Code on your PC by voice from the G2, plus tmux control from a phone browser.
+- [evenai-anthropic-bridge](https://github.com/jase-perf/evenai-anthropic-bridge) - Replaces the built-in Even AI assistant with Claude via a small local server.
 
 ## Related and Legacy (G1)
 
