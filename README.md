@@ -42,7 +42,7 @@ The [Even Realities G2](https://www.evenrealities.com) are everyday display smar
 
 ## SDK, Tooling, and Simulators
 
-- [er-studio](https://github.com/gabrielevierti/er-studio) - G2-native IDE with integrated simulator, live reload, asset conversion, and API reference for developing Even Realities G2 apps.
+- [er-studio](https://github.com/gabrielevierti/er-studio) - Visual Studio Code extension with integrated simulator and API reference for developing Even Realities G2 apps.
 - [even-dev](https://github.com/BxNxM/even-dev) - Even Hub simulator and multi-app test environment for building and testing G2 apps locally.
 - [even-toolkit](https://github.com/fabioglimb/even-toolkit) - Shared SDK utilities: design system, web components, pixel-art icons, an STT module, and pixel-accurate G2 text measurement.
 - [even-realities-ui](https://github.com/jappyjan/even-realities) - Foundation UI package (components, icons, and design tokens) for building G2 apps aligned to Even Realities' design guidelines.
